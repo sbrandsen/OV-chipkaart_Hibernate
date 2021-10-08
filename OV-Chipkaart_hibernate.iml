@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="dom4j-2.1.3" level="project" />
+    <orderEntry type="library" name="hibernate-jpamodelgen-5.5.7.Final" level="project" />
+    <orderEntry type="library" name="agroal-api-1.9" level="project" />
+    <orderEntry type="library" name="c3p0-0.9.5.5" level="project" />
+    <orderEntry type="library" name="ehcache-2.10.6" level="project" />
+    <orderEntry type="library" name="hibernate-hikaricp-5.5.7.Final" level="project" />
+    <orderEntry type="library" name="cache-api-1.0.0" level="project" />
+    <orderEntry type="library" name="hibernate-proxool-5.5.7.Final" level="project" />
+    <orderEntry type="library" name="hibernate-vibur-5.5.7.Final" level="project" />
+    <orderEntry type="library" name="hibernate-osgi-5.5.7.Final" level="project" />
+    <orderEntry type="library" name="antlr-2.7.7" level="project" />
+    <orderEntry type="library" name="checker-qual-3.5.0" level="project" />
+    <orderEntry type="library" name="postgresql-42.2.16" level="project" />
+  </component>
+</module>

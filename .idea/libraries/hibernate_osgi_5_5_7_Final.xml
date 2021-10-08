@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="hibernate-osgi-5.5.7.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/osgi/hibernate-osgi-5.5.7.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/osgi/javax.interceptor-api-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/osgi/org.osgi.compendium-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/osgi/org.osgi.core-6.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/osgi/org.osgi.compendium-5.0.0.jar!/OSGI-OPT/src" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/osgi/org.osgi.core-6.0.0.jar!/OSGI-OPT/src" />
+    </SOURCES>
+  </library>
+</component>

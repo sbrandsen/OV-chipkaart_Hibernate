@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="hibernate-vibur-5.5.7.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/optional/vibur/hibernate-vibur-5.5.7.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/optional/vibur/slf4j-api-1.7.13.jar!/" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/optional/vibur/vibur-dbcp-25.0.jar!/" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/optional/vibur/vibur-object-pool-25.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

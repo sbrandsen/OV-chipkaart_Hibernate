@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="agroal-api-1.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/optional/agroal/agroal-api-1.9.jar!/" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/optional/agroal/agroal-pool-1.9.jar!/" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/optional/agroal/hibernate-agroal-5.5.7.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

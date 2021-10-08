@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="dom4j-2.1.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/envers/dom4j-2.1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Programming/Library/hibernate-release/lib/envers/hibernate-envers-5.5.7.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
