@@ -1,12 +1,10 @@
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Transient;
+import javax.persistence.*;
 import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@Table(name = "reiziger")
 public class Reiziger {
     @Id
     @Column(name = "reiziger_id")
@@ -15,9 +13,13 @@ public class Reiziger {
     private String tussenvoegsel;
     private String achternaam;
     private Date geboortedatum;
-    @Transient
+
+    @OneToOne
+    @JoinColumn(name = "reiziger_id")
     private Adres adres;
-    @Transient
+
+    @OneToMany
+    @JoinColumn(name = "reiziger_id")
     private List<OVChipkaart> ovchipkaarten = new ArrayList<OVChipkaart>();
 
     public Reiziger(){

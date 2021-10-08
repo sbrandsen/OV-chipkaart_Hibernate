@@ -1,18 +1,18 @@
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.persistence.Transient;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@Table(name = "product")
 public class Product {
     @Id
     private int product_nummer;
     private String naam;
     private String beschrijving;
     private double prijs;
-    @Transient
-    private List<OVChipkaart> ovchipkaarten = new ArrayList<>();
 
     public Product(){
 
@@ -27,24 +27,6 @@ public class Product {
 
     public int getProduct_nummer() {
         return product_nummer;
-    }
-
-    public List<OVChipkaart> getOvchipkaarten() {
-        return ovchipkaarten;
-    }
-
-    public void setOvchipkaarten(List<OVChipkaart> ovchipkaarten) {
-        this.ovchipkaarten = ovchipkaarten;
-    }
-
-    public void addOvchipkaart(OVChipkaart ovChipkaart){
-        ovchipkaarten.add(ovChipkaart);
-    }
-
-    public void deleteOvchipkaart(OVChipkaart ovChipkaart){
-        if (ovchipkaarten.contains(ovChipkaart)) {
-            ovchipkaarten.remove(ovChipkaart);
-        }
     }
 
     public void setProduct_nummer(int product_nummer) {

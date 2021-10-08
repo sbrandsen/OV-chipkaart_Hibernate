@@ -1,8 +1,10 @@
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "adres")
 public class Adres {
     @Id
     @Column(name = "adres_id")
@@ -11,6 +13,8 @@ public class Adres {
     private String huisnummer;
     private String straat;
     private String woonplaats;
+
+    @Column(name = "reiziger_id")
     private int reiziger_id;
 
     public Adres(){
