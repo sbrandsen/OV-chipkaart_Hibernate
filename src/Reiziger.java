@@ -14,12 +14,10 @@ public class Reiziger {
     private String achternaam;
     private Date geboortedatum;
 
-    @OneToOne
-    @JoinColumn(name = "reiziger_id")
+    @OneToOne (mappedBy = "reiziger")
     private Adres adres;
 
-    @OneToMany
-    @JoinColumn(name = "reiziger_id")
+    @OneToMany (mappedBy = "reiziger")
     private List<OVChipkaart> ovchipkaarten = new ArrayList<OVChipkaart>();
 
     public Reiziger(){

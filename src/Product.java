@@ -1,7 +1,4 @@
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.persistence.Transient;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +11,9 @@ public class Product {
     private String beschrijving;
     private double prijs;
 
+    @ManyToMany(mappedBy = "producten")
+    private List<OVChipkaart> ovchipkaarten = new ArrayList<>();
+
     public Product(){
 
     }
@@ -23,6 +23,14 @@ public class Product {
         this.naam = product;
         this.beschrijving = beschrijving;
         this.prijs = prijs;
+    }
+
+    public List<OVChipkaart> getOvchipkaarten() {
+        return ovchipkaarten;
+    }
+
+    public void setOvchipkaarten(List<OVChipkaart> ovchipkaarten) {
+        this.ovchipkaarten = ovchipkaarten;
     }
 
     public int getProduct_nummer() {
